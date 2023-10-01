@@ -74,7 +74,7 @@
 #------------------------------------------------------------------------------
 VERSION = '1.4.6'.freeze
 
-# require 'uri' # for dealing with URIs
+require 'uri' # for dealing with URIs
 require 'net/http' # for handling URIs and requests. More details at https://ruby-doc.org/stdlib-2.7.1/libdoc/net/http/rdoc/Net/HTTP.html
 require 'optparse' # more details at https://docs.ruby-lang.org/en/2.1.0/OptionParser.html 'gem install OptionParser'
 require 'colorize' # 'gem install colorize'
